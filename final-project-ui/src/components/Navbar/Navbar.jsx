@@ -3,9 +3,9 @@ import React from "react";
 export const Navbar = () => {
   return (
     <div>
-      <div class="grid grid-cols-3 navbar bg-base-100">
+      <div class="grid grid-cols-3 navbar bg-base-100 fixed">
         <div class="flex-1 justify-end pr-2">
-          <a class="btn btn-ghost normal-case text-xl ">UDapp</a>
+          <a class="btn btn-ghost normal-case text-xl">UDapp</a>
         </div>
         <div class="flex-none">
           <div class="form-control w-full flex-none">
